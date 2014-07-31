@@ -1,0 +1,22 @@
+{
+  "name": "Ubuntu爱好者Webqq助手",
+  "version": "1.0",
+  "manifest_version": 2,
+  
+  
+"author":"VIP",
+  "permissions": [
+    "tabs","http://*/*","https://*/*"
+  ],
+  
+  
+"content_scripts": [
+    {"js":["contentscript.js"],"matches":
+  
+["http://wooyun.org/user.php?
+  
+action=login*","http://w.qq.com/*"]}
+  
+  
+]
+}
